@@ -9,7 +9,7 @@ import './home-page.css';
 const TOYS = [
     {
         id: 1,
-        images: ['/image-toys-slider/cipa/cipa.jpg', 'image-toys/cipa/cipa1.jpg'],
+        images: ['/image-toys-slider/cipa/cipa.jpg', '/image-toys-slider/cipa/cipa1.jpg'],
         title: 'Цыпленок в скорлупе',
         size: 'Игрушка размером с раскрытую ладонь',
         price: 700,
@@ -17,7 +17,7 @@ const TOYS = [
     },
     {
         id: 2,
-        images: ['/image-toys-slider/dino/dino.jpg', '/image-toys/dino/dino1.jpg'],
+        images: ['/image-toys-slider/dino/dino.jpg', '/image-toys-slider/dino/dino1.jpg'],
         title: 'Динозаврик',
         size: 'Длина игрушки около 36 см',
         price: 1000,
@@ -25,7 +25,7 @@ const TOYS = [
     },
     {
         id: 3,
-        images: ['/image-toys-slider/edino/edino.jpg', '/image-toys/edino/edino1.jpg', '/image-toys/edino/edino2.jpg'],
+        images: ['/image-toys-slider/edino/edino.jpg', '/image-toys-slider/edino/edino1.jpg', '/image-toys-slider/edino/edino2.jpg'],
         title: 'Единорожка',
         size: 'Ростом игрушка около 30 см',
         price: 1400,
@@ -41,7 +41,7 @@ const TOYS = [
     },
     {
         id: 5,
-        images: ['/image-toys-slider/koshka/koshka.jpg', '/image-toys/koshka/koshka1.jpg'],
+        images: ['/image-toys-slider/koshka/koshka.jpg', '/image-toys-slider/koshka/koshka1.jpg'],
         title: 'Кошечка в платье',
         size: 'Рост её около 33 см',
         price: 1000,
@@ -49,7 +49,7 @@ const TOYS = [
     },
     {
         id: 6,
-        images: ['/image-toys-slider/lev/lev.jpg', '/image-toys/lev/lev1.jpg'],
+        images: ['/image-toys-slider/lev/lev.jpg', '/image-toys-slider/lev/lev1.jpg'],
         title: 'Лев Кудряш',
         size: 'Рост львенка около 36 см',
         price: 1300,
@@ -57,7 +57,7 @@ const TOYS = [
     },
     {
         id: 7,
-        images: ['/image-toys-slider/misha/misha.jpg', '/image-toys/misha/misha1.jpg'],
+        images: ['/image-toys-slider/misha/misha.jpg', '/image-toys-slider/misha/misha1.jpg'],
         title: 'Плюшевый Мишка',
         size: 'Этот малыш ростом около 29 см',
         price: 1000,
@@ -73,7 +73,7 @@ const TOYS = [
     },
     {
         id: 9,
-        images: ['/image-toys-slider/olen/olen.jpg', '/image-toys/olen/olen1.jpg'],
+        images: ['/image-toys-slider/olen/olen.jpg', '/image-toys-slider/olen/olen1.jpg'],
         title: 'Пижамница Оленёнок',
         size: 'Размер от кончиков рожек до кончиков ножек 56 см',
         price: 1800,
@@ -81,7 +81,7 @@ const TOYS = [
     },
     {
         id: 10,
-        images: ['/image-toys-slider/plusha/plusha.jpg', '/image-toys/plusha/plusha1.jpg'],
+        images: ['/image-toys-slider/plusha/plusha.jpg', '/image-toys-slider/plusha/plusha1.jpg'],
         title: 'Хрюшка Плюшка',
         size: 'Рост её около 37 см',
         price: 1300,
@@ -97,7 +97,7 @@ const TOYS = [
     },
     {
         id: 12,
-        images: ['/image-toys-slider/sonya/sonya.jpg', '/image-toys/sonya/sonya1.jpg', '/image-toys/sonya/sonya.jpg2'],
+        images: ['/image-toys-slider/sonya/sonya.jpg', '/image-toys-slider/sonya/sonya1.jpg', '/image-toys-slider/sonya/sonya2.jpg'],
         title: 'Собачка Соня',
         size: 'Игрушка ростом около 35 см',
         price: 1400,

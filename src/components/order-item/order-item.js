@@ -14,7 +14,7 @@ export const OrderItem = ({toy}) => {
     return (
         <div className='order-item'>
             <div className='order-item__cover'>
-                <ToyCover image={toy.image} />
+                <ToyCover image={toy.images[0]} />
             </div>
             <div className='order-item__title'>
                 <span>{toy.title}</span>
