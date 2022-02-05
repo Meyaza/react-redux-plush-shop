@@ -1,7 +1,7 @@
 .cart-block {
     display: flex;
     align-items: center;
-    position: relative;
+    position: fixed;
     cursor: pointer;
 }
 

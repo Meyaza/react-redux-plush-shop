@@ -25,8 +25,7 @@ export const ToyItem = ({toy}) => {
         
         <div className='toy-item' onClick={handleClick}>
         
-            <ToyCover image={toy.image}/>
-            
+            <ToyCover image={toy.images[0]}/>
             <div className='toy-item__details'>
                 <span className='toy-item__title'>{toy.title}</span>
                 <div className='toy-item__description'>

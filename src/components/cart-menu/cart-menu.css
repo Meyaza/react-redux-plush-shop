@@ -1,12 +1,13 @@
 .cart-menu {
     position: absolute;
     top: 50px;
-    left: -300px;
-    background-color: rgb(36,37,41);
-    width: 400px;
+    left: -50px;
+    background-color: rgb(245, 175, 245);
+    width: 300px;
     padding: 10px 20px;
     z-index: 2;
     border-radius: 15px;
+    border: 1px solid rgb(155, 24, 231);
 }
 
 .cart-menu__arrange {

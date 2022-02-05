@@ -5,6 +5,7 @@ import { ToyCover } from '../toy-cover';
 import { useDispatch, useSelector } from 'react-redux';
 import { deleteCurrentToy} from '../../redux/toys/reducer';
 import { ToyBuy } from '../toy-buy';
+import Slider from '../slider/slider';
 
 export const Modal = ({active, setActive}) => {
     const items = useSelector(state => state.toy.currentToy);
@@ -18,7 +19,7 @@ export const Modal = ({active, setActive}) => {
             <div className={active ? 'modal__content active' : 'modal__content'} onClick={e => e.stopPropagation()}>
                { items ? 
                 <div className='toy-item1'>
-                            <ToyCover image={items.image}/>
+                            <Slider images={items.images}/>
                             
                             <div className='toy-item__details1'>
                                 <span className='toy-item__title1'>{items.title}</span>

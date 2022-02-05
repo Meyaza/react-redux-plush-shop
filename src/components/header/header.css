@@ -20,4 +20,5 @@
 
 .header__cart-btn-wrapper {
     justify-content: flex-end;
+    z-index: 10;
 }
