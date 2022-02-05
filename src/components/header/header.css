@@ -12,13 +12,17 @@
 }
 
 .header_store_title {
-    color:white;
+    color:rgb(197, 242, 253);
     text-decoration: none;
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 40px;
+   
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    font-weight: 800;
 }
 
 .header__cart-btn-wrapper {
     justify-content: flex-end;
     z-index: 10;
+
 }

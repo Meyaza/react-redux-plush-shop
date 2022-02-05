@@ -21,7 +21,7 @@
 
 .modal__content {
     border-radius: 17px;
-    border: 1px solid rgb(155, 24, 231);
+    
     transform: scale(0.5);
     transition: 0.4s all;
 }
@@ -40,17 +40,19 @@
     border-radius: 15px;
     cursor: pointer;
     position: relative;
-    border: 1px solid black;
+   
     
 }
 
 .toy-item__title1 {
     font-size: 18px;
     font-weight: bold;
+ 
 }
 
 .toy-item__details1 {
     padding: 10px 20px;
+    margin-top: 30px;
 }
 
 .toy-item__description1 {

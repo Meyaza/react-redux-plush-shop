@@ -7,13 +7,16 @@ import './toy-item.css';
 import { ToyBuy } from '../toy-buy/toy-buy';
 import { Modal } from '../modal/modal';
 import { setCurrentToy } from "../../redux/toys/reducer";
-
-
+import { pulse } from 'react-animations';
+import styled, { keyframes } from 'styled-components';
 export const ToyItem = ({toy}) => {
  
     const dispatch = useDispatch();
     const items = useSelector(state => state.toy.currentToy);
-
+    const Pulse = styled.div`
+    :hover {animation: 2s ${keyframes`${pulse}`} infinite}
+    
+    `;
 
     const handleClick = (e) => {
        
@@ -22,7 +25,8 @@ export const ToyItem = ({toy}) => {
         
     }
     return (
-        
+        <div>
+        <Pulse>
         <div className='toy-item' onClick={handleClick}>
         
             <ToyCover image={toy.images[0]}/>
@@ -36,7 +40,8 @@ export const ToyItem = ({toy}) => {
                 </div>
             </div>
         </div>
-     
+        </Pulse>
+        </div>
     );
 };
 
