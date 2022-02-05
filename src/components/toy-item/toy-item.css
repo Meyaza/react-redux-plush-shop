@@ -1,0 +1,43 @@
+.toy-item {
+    text-decoration: none;
+    color: black;
+    width: 330px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    cursor: pointer;
+    position: relative;
+    margin-left: 30px;
+    margin-top: 30px;
+  
+    
+}
+
+
+
+.toy-item__title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.toy-item__genre {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.toy-item__details {
+    padding: 10px 20px;
+}
+
+.toy-item__description {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.toy-item__buy {
+    display: flex;
+    justify-content: flex-end;
+    
+    cursor: pointer;
+}

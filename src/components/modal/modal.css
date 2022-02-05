@@ -1,0 +1,66 @@
+.modal {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.603);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.modal.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modal__content {
+    border-radius: 17px;
+    border: 1px solid rgb(155, 24, 231);
+    transform: scale(0.5);
+    transition: 0.4s all;
+}
+
+.modal__content.active {
+   transform: scale(1);
+}
+
+
+.toy-item1 {
+    text-decoration: none;
+    color: black;
+    width: 350px;
+    height: 550px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    cursor: pointer;
+    position: relative;
+    border: 1px solid black;
+    
+}
+
+.toy-item__title1 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.toy-item__details1 {
+    padding: 10px 20px;
+}
+
+.toy-item__description1 {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.toy-item__buy1 {
+    display: flex;
+    justify-content: flex-end;
+    
+    cursor: pointer;
+}

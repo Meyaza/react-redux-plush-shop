@@ -1,0 +1,12 @@
+.toy-buy__price {
+    margin-right: 10px;
+    padding-bottom: 5px;
+}
+
+.toy-buy {
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    font-size: 20px;
+    font-weight: 600;
+}
