@@ -9,26 +9,21 @@ import { Modal } from '../modal/modal';
 import { setCurrentToy } from "../../redux/toys/reducer";
 import { pulse } from 'react-animations';
 import styled, { keyframes } from 'styled-components';
+
+const Pulse = styled.div`
+:hover {animation: 2s ${keyframes`${pulse}`} infinite}
+
+`;
+
 export const ToyItem = ({toy}) => {
- 
     const dispatch = useDispatch();
     const items = useSelector(state => state.toy.currentToy);
-    const Pulse = styled.div`
-    :hover {animation: 2s ${keyframes`${pulse}`} infinite}
-    
-    `;
-
     const handleClick = (e) => {
-       
-
             dispatch(setCurrentToy(toy))
-        
     }
     return (
-        <div>
         <Pulse>
         <div className='toy-item' onClick={handleClick}>
-        
             <ToyCover image={toy.images[0]}/>
             <div className='toy-item__details'>
                 <span className='toy-item__title'>{toy.title}</span>
@@ -41,7 +36,6 @@ export const ToyItem = ({toy}) => {
             </div>
         </div>
         </Pulse>
-        </div>
     );
 };
 
