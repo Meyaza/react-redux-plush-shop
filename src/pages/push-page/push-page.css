@@ -1,0 +1,28 @@
+.main {
+    width: 300px;
+}
+
+.item {
+    border: 1px solid rgb(241, 174, 238);
+    border-radius: 15px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.toy { 
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.price {
+    font-size: 25px;
+    color: black;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.buttton {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}

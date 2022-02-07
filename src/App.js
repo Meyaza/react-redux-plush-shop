@@ -8,6 +8,7 @@ import {Header} from './components/header';
 import {Provider} from 'react-redux';
 import { store } from './redux';
 import { OrderPage } from './pages/order-page';
+import PushPage from './pages/push-page/push-page.js';
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
             </Route>
             <Route exact path='/order'>
               <OrderPage/>
+            </Route>
+            <Route exact path='/push'>
+              <PushPage/>
             </Route>
           </Switch>
         </div>

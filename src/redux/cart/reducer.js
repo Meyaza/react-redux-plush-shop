@@ -11,9 +11,12 @@ const cartSclice = createSlice({
         },
         deleteItemFromCart: (state, action) => {
             state.itemsInCart = state.itemsInCart.filter(game => game.id !== action.payload)
+        },
+        deleteAllItemFromCart: (state, action) => {
+            state.itemsInCart = []
         }
     },
 });
 
-export const {setItemInCart, deleteItemFromCart} = cartSclice.actions
+export const {setItemInCart, deleteItemFromCart, deleteAllItemFromCart} = cartSclice.actions
 export default cartSclice.reducer;

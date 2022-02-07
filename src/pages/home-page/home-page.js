@@ -3,14 +3,18 @@ import { Modal } from '../../components/modal';
 import { ToyItem } from '../../components/toy-item';
 import axios from 'axios'
 import './home-page.css';
+import {Lodaer} from '../../components/UI/lodaer';
 
 export const HomePage = () => {
     const [modalActive, setModalActive] = useState(false);
     const [toys, setToys] = useState(null);
+    const [isToysLoading, setIsToysLoading] = useState(false);
     const apiURL = "http://localhost:8000/toys";
     const fetchData = async () => {
+        setIsToysLoading(true);
         const response = await axios.get(apiURL)
         setToys(response.data) 
+        setIsToysLoading(false);
     }
     useEffect(() => {
         fetchData()
@@ -18,15 +22,18 @@ export const HomePage = () => {
 
     return (
         <div className='home-page'>
-            {toys &&
-                toys.map(toy => 
-                    <div className='' key={toy.id}>
-                        <div onClick={() => setModalActive(true)}>
-                            <ToyItem toy={toy}  /> 
+            {isToysLoading
+            ? <div className='load'><Lodaer/></div>
+            :
+                toys &&
+                    toys.map(toy => 
+                        <div key={toy.id}>
+                            <div onClick={() => setModalActive(true)}>
+                                <ToyItem toy={toy}  /> 
+                            </div>
                         </div>
-                    </div>
-                )
-            } 
+                    )
+                } 
             <Modal active={modalActive} setActive={setModalActive}/>
         </div>
     );
