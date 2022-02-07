@@ -1,0 +1,46 @@
+.footer_container {
+    margin-top: 150px;
+    border-top: 2px solid #9C69E2;
+    color: black;
+}
+
+footer {
+    max-width: 1068px;
+    width: auto;
+    margin: 0 auto;
+    padding: 100px 25px 65px 25px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.contact .block {
+    display: flex;
+    align-items: center;
+}
+
+.contact .block img {
+    margin-right: 20px;
+}
+
+
+
+.contact .p_2 {
+    line-height: 28.8px;
+    margin-top: 10px;
+}
+
+
+.social .flex {
+    display: flex;
+    margin-top: 30px;
+}
+
+.flex .s {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #212353;
+    opacity: 10%;
+    margin-right: 14px;
+}

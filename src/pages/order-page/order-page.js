@@ -42,12 +42,12 @@ export const OrderPage = () => {
     return (
         isToysLoading
          ? <div className='load'><Lodaer/></div> 
-         : <div className=''>
-            <div className='order-page__left'>
+         : <div className='order'>
+            <div className=''>
                 {items.map(toy => <OrderItem key={toy.id} toy={toy}/>)}
             </div>
-            <div className='order-page__right'>
-                <div className='order-page__total-price'>
+            <div className=''>
+                <div className=''>
                     <h1>
                        {items.length} товаров на сумму {calcTotalPrice(items)} руб.
                     </h1>

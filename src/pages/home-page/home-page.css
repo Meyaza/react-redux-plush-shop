@@ -1,3 +1,8 @@
+.home-main {
+    width: 500px;
+    height: 500px;
+}
+
 .home-page {
     display: flex;
     flex-wrap: wrap;
@@ -9,4 +14,53 @@
     justify-content: center;
     margin-left: 400px;
     margin-top: 100px;
+}
+
+.section_1 {
+    max-width: 1055px;
+    width: auto;
+    padding: 0 25px 0;
+}
+
+.s_block {
+    background-color: rgba(240, 99, 184, 0.15);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    
+}
+
+.s_img {
+    width: 50%;
+}
+
+.s_text {
+    width: 50%;
+    margin-right: 92px;
+}
+
+.s_text h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #212353;
+}
+
+.s_text p {
+    font-size: 18px;
+    line-height: 28.8px;
+    font-weight: 500;
+    color: #4B5D68;
+    margin-top: 40px;
+}
+
+.but {
+    margin-bottom: 20px;
+    margin-left: 120px;
+}
+
+.ima {
+    display: flex;
+    max-width: 400px;
+    margin-left: 50px;
 }

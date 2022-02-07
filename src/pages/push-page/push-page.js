@@ -40,8 +40,6 @@ const PushPage = () => {
                                 )    
                             }              
                         </div>
-
-
                     </div>
                 }    
         </div>

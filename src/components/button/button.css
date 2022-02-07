@@ -1,9 +1,17 @@
 .btn {
-    border-radius: 15px;
-    color: white;
-    border: none;
-    padding: pointer;
+    width: 170px;
+    height: 60px;
+    background-color: #9C69E2;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 14px;
     cursor: pointer;
+    transition: 0.5s;
+    border: 1px solid transparent;
 }
 
 .btn--primary {
@@ -39,6 +47,11 @@
 }
 
 
+.main_btn:hover {
+    color: #9C69E2;
+    background-color: #FFFFFF;
+    border: 1px solid #9C69E2;
+}
 
 
 

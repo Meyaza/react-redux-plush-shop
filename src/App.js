@@ -9,6 +9,7 @@ import {Provider} from 'react-redux';
 import { store } from './redux';
 import { OrderPage } from './pages/order-page';
 import PushPage from './pages/push-page/push-page.js';
+import Footer from './components/footer/footer.js';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
               <PushPage/>
             </Route>
           </Switch>
+          <Footer/>
         </div>
       </Router>
     </Provider>
