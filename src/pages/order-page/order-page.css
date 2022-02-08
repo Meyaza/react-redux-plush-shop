@@ -2,25 +2,6 @@
     background-color: rgba(107, 103, 103, 0.247)
 }
 
-.form {
-    width: 300px;
-    padding: 32px; 
-    border-radius: 10px;
-    box-shadow: 0 4px 16px #ccc;
-    font-family: sans-serif; 
-    letter-spacing: 1px;
-}
-
-.form_input {
-    width: 100%;
-    padding: 0 0 10px 0;
-    border: none;
-    border-bottom: 1px solid #e0e0e0; 
-    background-color: transparent;
-    outline: none;
-    transition: 0.3s;
-    margin-bottom: 15px;
-}
 
 .load {
     justify-content: left;

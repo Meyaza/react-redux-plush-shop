@@ -21,14 +21,14 @@ export const HomePage = () => {
     useEffect(() => {
         fetchData()
     }, [])
-    const im = "/image-toys-slider/olen/olen1.jpg"
+   
     return (
-        <div>
+        <div className='main-main'>
         <section class="section_1" id="about">
             <div class="s_block">
                 <div class='s_img'>
                 <div className='ima'>
-                    <ToyCover image={im}/>
+                    <ToyCover image={"/image-toys-slider/olen/olen1.jpg"}/>
                 </div>
                 </div>
                 <div class="s_text">

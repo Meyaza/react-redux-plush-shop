@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import './button.css';
 export const Button = ({
     onClick,
+    disabled,
     type,
     children,
     size = 's'
@@ -15,7 +16,7 @@ export const Button = ({
         'btn--medium': size === 'm',
     })
     return (
-        <button className={btnClass} onClick={onClick}>
+        <button disabled={disabled} className={btnClass} onClick={onClick}>
             {children}
         </button>
     );

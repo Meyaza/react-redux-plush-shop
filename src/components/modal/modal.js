@@ -1,5 +1,5 @@
 
-import cl from './modal.css';
+import './modal.css';
 import React from 'react';
 import { ToyCover } from '../toy-cover';
 import { useDispatch, useSelector } from 'react-redux';
