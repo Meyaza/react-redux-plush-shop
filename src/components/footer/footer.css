@@ -23,8 +23,6 @@ footer {
     margin-right: 20px;
 }
 
-
-
 .contact .p_2 {
     line-height: 28.8px;
     margin-top: 10px;
@@ -43,4 +41,8 @@ footer {
     background-color: #212353;
     opacity: 10%;
     margin-right: 14px;
+}
+
+.icon {
+    margin-left: 20px;
 }

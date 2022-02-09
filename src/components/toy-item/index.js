@@ -1,1 +1,1 @@
-export * from './toy-item';
+export * from './toy-item.jsx'

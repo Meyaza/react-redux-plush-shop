@@ -3,17 +3,14 @@ import {
   Switch,
   Route,
 } from 'react-router-dom';
-import {HomePage} from './pages/home-page/home-page.js';
+import PushPage from './pages/push-page/push-page';
+import Footer from './components/footer/footer';
+import {HomePage} from './pages/home-page/home-page';
 import {Header} from './components/header';
-import {Provider} from 'react-redux';
-import { store } from './redux';
 import { OrderPage } from './pages/order-page';
-import PushPage from './pages/push-page/push-page.js';
-import Footer from './components/footer/footer.js';
 
 function App() {
   return (
-    <Provider store={store}>
       <Router>
         <div className="App">
           <Header/>
@@ -31,7 +28,6 @@ function App() {
           <Footer/>
         </div>
       </Router>
-    </Provider>
   );
 }
 

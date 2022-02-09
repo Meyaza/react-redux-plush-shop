@@ -12,8 +12,6 @@
     box-shadow: 8px 8px 8px 0px rgba(34, 60, 80, 0.2);
 }
 
-
-
 .toy-item__title {
     font-size: 18px;
     font-weight: bold;
@@ -37,6 +35,5 @@
 .toy-item__buy {
     display: flex;
     justify-content: flex-end;
-    
     cursor: pointer;
 }

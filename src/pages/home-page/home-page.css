@@ -7,6 +7,10 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: #4B5D68;
+    margin-top: 40px;
 }
 
 .load {

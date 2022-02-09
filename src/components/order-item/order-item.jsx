@@ -1,16 +1,15 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import { ToyCover } from '../toy-cover';
 import  {AiOutlineCloseCircle} from 'react-icons/ai';
-import './order-item.css';
+import { ToyCover } from '../toy-cover';
 import { deleteItemFromCart } from '../../redux/cart/reducer';
+import './order-item.css';
 
 export const OrderItem = ({toy}) => {
     const dispath = useDispatch();
     const handleClick = () => {
         dispath (deleteItemFromCart(toy.id))
     }
-
     return (
         <div className='order-item'>
             <div className='order-item__cover'>

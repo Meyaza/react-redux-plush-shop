@@ -1,5 +1,5 @@
 .main {
-    width: 300px;
+    width: 1100px;
     color: rgb(156, 105, 226);
 }
 
@@ -8,6 +8,8 @@
     border-radius: 15px;
     margin-left: 50px;
     margin-top: 50px;
+    display: flex;
+
 }
 
 .toy { 
@@ -16,14 +18,22 @@
     margin-left: 20px;
 }
 
+.toys-block {
+    display: flex;
+    flex-direction: column;
+}
+
 .price {
     font-size: 25px;
     color: black;
     margin-bottom: 10px;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .buttton {
     margin-bottom: 10px;
-    margin-left: 20px;
+    margin-top: 10px;
+    float: right;
+    margin-left: auto;
+    
 }

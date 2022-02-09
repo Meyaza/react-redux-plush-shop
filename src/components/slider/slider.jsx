@@ -1,12 +1,11 @@
 import React from 'react';
-import './slider.css';
-import {useState, useEffect} from "react";
 import { ToyCover } from '../toy-cover';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-export const SliderComp = ({images}) => {
+import './slider.css';
 
+export const SliderComp = ({images}) => {
 const settings = {
         dots: true,
         infinite: true,
@@ -16,9 +15,9 @@ const settings = {
       };
  
     return (
-<div>
+      <div className='slider'>
         <Slider {...settings}>
-        {images.map( image => <ToyCover key={image} image={image}/>)}
+          {images.map( image => <ToyCover key={image} image={image}/>)}
         </Slider>
       </div>
 )

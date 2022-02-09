@@ -21,7 +21,6 @@
 
 .modal__content {
     border-radius: 17px;
-    
     transform: scale(0.5);
     transition: 0.4s all;
 }
@@ -31,7 +30,7 @@
 }
 
 
-.toy-item1 {
+.modal-item {
     text-decoration: none;
     color: black;
     width: 350px;
@@ -44,25 +43,24 @@
     
 }
 
-.toy-item__title1 {
+.modal-item__title {
     font-size: 18px;
     font-weight: bold;
  
 }
 
-.toy-item__details1 {
+.modal-item__details {
     padding: 10px 20px;
     margin-top: 30px;
 }
 
-.toy-item__description1 {
+.modal-item__description {
     margin-top: 10px;
     font-size: 14px;
 }
 
-.toy-item__buy1 {
+.modal-item__buy {
     display: flex;
     justify-content: flex-end;
-    
     cursor: pointer;
 }
